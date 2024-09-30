@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/yuvi/codewars-v4/engine/main.py", line 323, in run_game
+    n = self.__bscript.ActPirate(pirate_i)
+  File "/home/yuvi/codewars-v4/scriptblue.py", line 149, in ActPirate
+    if(id < 10 and id % 2 == 0): #vertical
+TypeError: '<' not supported between instances of 'str' and 'int'
